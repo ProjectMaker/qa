@@ -1,0 +1,6 @@
+each roles as |role|
+    = x-button [
+        label=(titleize role)
+        disabled=(get organizationManager (concat 'is' (titleize role)))
+        onClick=(action 'changeRole' role)
+    ]

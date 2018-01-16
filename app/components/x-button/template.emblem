@@ -1,0 +1,2 @@
+button{action 'handleClickButton'} disabled=disabled data-test-x-button=true
+    = label
