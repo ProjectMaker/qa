@@ -1,4 +1,4 @@
 span
     | You are&nbsp;
     span data-test-top-bar-role-label=true
-        = role
+        = organizationManager.role
